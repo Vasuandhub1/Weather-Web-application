@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image:linear-gradient(45deg, rgb(48, 135, 228), white);
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 1vh;
+}
+#box{
+    width: 25vh;
+    height: 4vh;
+    border: 2px solid black;
+    border-radius: 10vh;
+    margin-top: 1%;
+    padding: 3%;
+font-size: x-large;
+}
